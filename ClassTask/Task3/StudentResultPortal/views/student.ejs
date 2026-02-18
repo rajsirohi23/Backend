@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+
+<h2>Student Result</h2>
+
+<p><strong>Name:</strong> <%= student.name %></p>
+<p><strong>Marks:</strong> <%= student.marks %></p>
+<p><strong>Grade:</strong> <%= student.grade %></p>
+
+<% if (student.marks >= 35) { %>
+  <p>Status: Pass </p>
+<% } else { %>
+  <p>Status: Fail </p>
+<% } %>
+
+<a href="/students">Back to List</a>
+
+<%- include("partials/footer") %>
