@@ -1,0 +1,31 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuradhagla/Backend-Dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/manuradhagla/Backend-Dev/issues"
+  },
+  "homepage": "https://github.com/manuradhagla/Backend-Dev#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.5.0",
+    "validator": "^13.15.35",
+    "xss": "^1.0.15"
+  }
+}
